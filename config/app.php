@@ -21,11 +21,12 @@ return [
     |--------------------------------------------------------------------------
     |
     | This value is the version of your application, typically set via the
-    | APP_VERSION environment variable during Docker builds.
+    | APP_VERSION environment variable during Docker builds. This fork
+    | keeps that tag and appends "-cenobitedk" for the dashboard.
     |
     */
 
-    'version' => env('APP_VERSION', 'unknown'),
+    'version' => \App\Utils\AppVersion::withForkSuffix(env('APP_VERSION', 'unknown')),
 
     /*
     |--------------------------------------------------------------------------
