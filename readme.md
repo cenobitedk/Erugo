@@ -1,3 +1,8 @@
+> **This is a fork of [ErugoOSS/Erugo](https://github.com/ErugoOSS/Erugo).** [cenobitedk/Erugo](https://github.com/cenobitedk/Erugo) is upstream `main` plus two changes that are still open there. The Docker image in the quick start below (`wardy784/erugo`) is the upstream image, so a build from this repository is required to get them.
+>
+> 1. **PHP 8.5.12** — Alpine 3.23 and PHP 8.5.12 for CVE-2026-109618 and CVE-2026-109619, from [ErugoOSS/Erugo#298](https://github.com/ErugoOSS/Erugo/pull/298).
+> 2. **Mixed fixes** — storage cleanup, resumable uploads, reverse-share links, and password-protected share reads, from [ErugoOSS/Erugo#252](https://github.com/ErugoOSS/Erugo/pull/252).
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/wardy784/erugo)](https://hub.docker.com/r/wardy784/erugo) ![GitHub Repo stars](https://img.shields.io/github/stars/deanward/erugo) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/deanward/erugo) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/deanward/erugo) ![GitHub commits since latest release](https://img.shields.io/github/commits-since/deanward/erugo/latest) [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg)](LICENSE)
 
 [![Discord Banner 2](https://img.shields.io/badge/Join%20Us%20On%20Discord-8A2BE2)](https://discord.gg/M74X2wmqY8)
